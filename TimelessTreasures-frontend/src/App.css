@@ -1,0 +1,150 @@
+html,
+body {
+  background-color: #f4f1e4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+.navbar {
+  background-color: #3E5045;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.card-container.card {
+  min-width: 350px;
+  padding: 40px;
+}
+
+.card-header {
+  background-color: rgb(62, 80, 69, .2);
+}
+
+.card-header:first-child {
+  border-radius: 9px 9px 0 0;
+}
+
+.navi-link.active {
+  color: #495057;
+  background-color: #d3d6c2;
+}
+
+.card {
+  background-color: #d3d6c2;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  background-color: #d3d6c2;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  height: 250px;
+}
+
+.card-img {
+  background-color: #d3d6c2;
+  object-fit: cover;
+  height: 250px;
+}
+
+.card-body {
+  border-radius: 0px 0px 10px 10px;
+  background-color: #eaecdf;
+}
+
+.card-background {
+  background-color: #FFF;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+}
+
+.card-img-top-big {
+  background-color: #d3d6c2;
+  border-radius: 10px 10px 0 0;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.list-group-item.active {
+  background-color: #3E5045;
+  border-color: #3E5045;
+}
+
+.custom-file-label {
+  margin-top: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.btn-success {
+  background-color: #3E5045;
+  border-color: #3E5045;
+}
+
+.btn-success:hover {
+  background-color: #616d66;
+  background-color: #616d66;
+}
+
+.btn-outline-success {
+  border-color: #3E5045;
+  color: #3E5045;
+}
+
+.btn-outline-success:hover {
+  background-color: #3E5045;
+  border-color: #3E5045;
+}
+
+.custom-file-label::after {
+  background-color: #3E5045;
+  color: #FFF;
+}
+
+.popupInfo {
+  margin: 5px;
+}
